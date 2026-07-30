@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Backend Base URL
 const API = axios.create({
-    baseURL: "https://notes-app-backend-1j2p.onrender.com",
+    baseURL: "https://notes-app-backend-1j2p.onrender.com/api",
     headers: {
         "Content-Type": "application/json",
     },

@@ -98,6 +98,7 @@ app.use(
     origin: [
       "http://localhost:5173",
       "https://nbnotesapp.netlify.app",
+      /^https:\/\/.*--nbnotesapp\.netlify\.app$/,
     ],
     credentials: true,
   })
