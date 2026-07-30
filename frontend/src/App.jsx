@@ -71,7 +71,7 @@ import Login from "./component/pages/Login";
 import Register from "./component/pages/Register";
 import Dashboard from "./component/pages/Dashboard";
 import MyNotes from "./component/pages/MyNotes";
-import Settings from "./component/pages/Settings";
+import Settings from "./component/pages/settings";
 
 const ProtectedRoute = ({ children }) => {
   const token = localStorage.getItem("token");
