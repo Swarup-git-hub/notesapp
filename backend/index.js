@@ -97,7 +97,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://your-site.netlify.app",
+      "https://nbnotesapp.netlify.app",
     ],
     credentials: true,
   })
