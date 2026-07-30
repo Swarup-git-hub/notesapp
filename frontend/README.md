@@ -1,16 +1,105 @@
-# React + Vite
+# 📝 MERN Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Notes Management Application** built using the **MERN Stack**. This application allows users to securely register, log in, and manage their personal notes with full CRUD functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### Authentication
+- User Registration
+- User Login
+- JWT Authentication
+- Protected Routes
+- Secure Password Hashing (bcryptjs)
+- Logout Functionality
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Notes Management
+- Create Notes
+- View All Notes
+- Edit Notes
+- Delete Notes
+- Dashboard with Statistics
+- Recent Notes Section
 
-## Expanding the ESLint configuration
+### User Interface
+- Modern Responsive UI
+- Mobile Friendly
+- Sidebar Navigation
+- Dashboard
+- Search Bar (UI)
+- Toast Notifications
+- Confirmation Dialog before Logout
+- Loading Indicators
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- React Router DOM
+- Tailwind CSS
+- Axios
+- React Icons
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT
+- bcryptjs
+
+---
+
+## 📂 Project Structure
+
+```
+NotesApp/
+│
+├── backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── package.json
+│   └── server.js
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── layout/
+│   │   ├── services/
+│   │   ├── ui/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   ├── package.json
+│   └── vite.config.js
+│
+├── .gitignore
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Swarup-git-hub/notesapp.git
+```
+
+### Go to Project
+
+```bash
+cd YOUR_REPOSITORY
+```
+
+---
+
+## Install Backend Dependencies
